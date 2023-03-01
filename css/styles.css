@@ -8,15 +8,21 @@
     text-decoration: none;
 }
 .header {
-background-color: white;
+background-color: #FFFFFF;
 }
-.header-logo {font-family: 'Raleway';
-    font-style: normal;
+.header-logo {
     font-weight: 800;
     font-size: 18px;
     line-height: 24px;
     color: #2E2F42;
+    }
+.header-logo:hover {
+    color:#404BBF
 }
+.header-logo:focus {
+    color: #404BBF
+}
+
 .header-link {
     font-weight: 500;
     font-size: 16px;
@@ -31,6 +37,13 @@ background-color: white;
     letter-spacing: 0.02em;
     color: #434455;
 }
+.header-mail:hover {
+    color:#404BBF
+}
+.header-mail:focus {
+    color: #404BBF
+}
+
 
 .header-phone {
     font-weight: 400;
@@ -39,18 +52,106 @@ background-color: white;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.hero {
-background-color:#2E2F42 ;
+.heade-phone:hover {
+    color:#404BBF
 }
 
-.hero-start {
+.header-phone:focus {
+    color: #404BBF
+}
+
+.hero{background-color: #2E2F42;
+}
+
+.hero-start
+{
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
-
 .btn {
+    background-color: #4D5AE5;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+    
+        color: #FFFFFF;
+}
+ .btn:hover {
+    background-color:#404BBF
+    }
+ .btn:focus {
+            background-color: #404BBF
+        }
+                .text {
+   background-color: #FFFFFF;
+ }
+ .gallery {
+   background-color:#FFFFFF;
+  }
+        
+ .gallery-job {
+    font-size: 36px;
+    line-height: 40px;                 
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+ }
+ .gallery-main {
+ background-color: #FFFFFF;
+ }                       
+ .text-target {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    }
+        
+ .text-end {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;                 
+    letter-spacing: 0.02em;                                   
+    color: #434455;
+ }
 
+.aboutus {
+background-color: #F4F4FD;;
+}
+                    
+.aboutus-Team {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}                                     
+.aboutus-people {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.02em;   
+        color: #2E2F42;
+}             
+.aboutus-work {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;  
+        letter-spacing: 0.02em;    
+        color: #434455;
+}
+.footer {
+    background-color: #2E2F42;
+}
+.footer-last{
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #E7E9FC;
 }
