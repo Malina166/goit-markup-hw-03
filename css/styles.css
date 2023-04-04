@@ -54,7 +54,7 @@ a {
 
 .container {
   width: 1158px;
-  padding: 0px, 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -268,7 +268,9 @@ a {
   order: 1;
   flex-grow: 0;
 }
-
+.gallery-one{
+  display: block;
+}
 .gallery {
   padding-bottom: 120px;
 }
@@ -297,7 +299,7 @@ a {
 
 .team {
   background: #F4F4FD;
-  padding: 120px, 0px;
+  padding: 120px 0px;
 
 }
 
@@ -319,18 +321,16 @@ a {
 }
 
 .team-item {
-  display: block;
   background: #FFFFFF;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-  margin-bottom: 120px;
 }
 
 
 .aboutus-text {}
 
 .team-subtitle {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.20;
@@ -393,10 +393,9 @@ a {
 .footer-desc {
   margin-top: 16px;
   width: 264px;
-  height: 72px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 5px;
+  line-height: 1.5;
   color: #E7E9FC;
 }
 
@@ -408,7 +407,8 @@ a {
 .portfolio {
   padding-top: 24px;
   padding-bottom: 24px;
-  margin-bottom: 96px;
+background: #FFFFFF;
+  border-bottom: 1px solid #E7E9FC;
 }
 
 .portfolio-logo {
@@ -493,17 +493,13 @@ a {
 }
 
 .push {
-  background-color: var(--background-title-color);
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .push-list {
   margin-bottom: 72px;
-  padding: 12px 24px;
-  display: inline-block;
   display: flex;
-  min-height: 48px;
-  text-align: center;
-  border-radius: 4px;
   justify-content: center;
   gap: 24px;
 }
@@ -514,8 +510,9 @@ a {
 
 .push-button {
   padding: 12px 24px;
-  border-color: transparent;
-  background: #F4F4FD;
+background: #F4F4FD;
+  border: 1px solid #E7E9FC;
+  border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.50;
@@ -525,15 +522,6 @@ a {
   color: #4D5AE5;
   cursor: pointer;
   font-family: 'Roboto'
-}
-
-.buttom {
-  background: #F4F4FD;
-  border: 1px solid #E7E9FC;
-  border-radius: 4px;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
 }
 
 .push-button:hover {
@@ -546,47 +534,29 @@ a {
   color: #FFFFFF;
 
 }
-
-
+.portimg{
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
+border: 1px solid #E7E9FC;
+border-top: 0;
+}
+.portimage{
+  display: block;
+}
 .icons {}
 
 .icons-hidden {}
 
 .icons-list {
-  margin-bottom: 48px;
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  
 }
-
-.icons-second {
-  margin-bottom: 48px;
-  display: flex;
-  gap: 24px;
-
-}
-
-.icons-third {
-  margin-bottom: 120px;
-  display: flex;
-  gap: 24px;
-}
-
-.portimage {
-  display: block;
-}
-
-.portimg {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  background: #FFFFFF;
-  /* CORNFLOWER */
-
-  border: 1px solid #E7E9FC;
-}
-
-
-
 .icons-subtitle {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.20;
