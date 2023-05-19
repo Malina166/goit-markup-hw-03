@@ -185,13 +185,23 @@ a {
 }
 
 .hero {
+background-color: var(--background-color-text);
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/office.jpg);
+  background-position: center;
+  background-repeat:no-repeat;
+      background-size: cover;
+  max-width: 1440px;
+  height: 600px;
+  background-size: cover;
   background-color: #2E2F42;
   text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
+      margin-left: auto;
+        margin-right: auto;
 }
 
-.hero-container {}
+
 
 .hero-section {
   width: 1158px;
@@ -238,14 +248,45 @@ a {
   padding: 120px, 0px;
 }
 
-.section-title {}
+.section-title {
+  
+}
 
+.section-images{
+  width: 64px;
+  height: 64px;
+  align-items: center;
+  justify-content: center;
+}
 .section-list {
   display: flex;
   gap: 24px;
 }
 
 .section-item {}
+
+.section-div{
+  width: 264px;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F4F4FD;
+      border-radius: 4px;
+      margin-bottom: 8px;
+}
+
+
+.first-icons{
+  height: 64px;
+  width: 64px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+{
+  
+}
 
 .section-subtitle {
 
@@ -258,7 +299,6 @@ a {
   order: 0;
   flex-grow: 0;
 }
-
 .section-desc {
   font-weight: 400;
   font-size: 16px;
@@ -316,12 +356,57 @@ a {
 
 .team-list {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 24px;
 
+
+}
+.team-soc-list{
+  display: flex;
+  gap: 24px;
+    width: 40px;
+    height: 40px
+}
+.team-soc-item:first-child{
+  margin-left: 16px;
+}
+.team-soc-item:last-child{
+  margin-right: 16px;
+}
+.team-soc-item {
+  margin-top: 8px;
+  margin-bottom: 32px;
+  
+}
+.team-soc-link{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4D5AE5;
+  border-radius: 50%;
+width: 40px;
+  height: 40px;
+}
+.team-soc-link:hover,
+.team-soc-link:focus{
+  background-color:#404BBF;
+}
+.team-soc-link:hover, .team-soc-link,
+.team-soc-link:focus, .team-soc-link{
+  fill: #404BBF;
+}
+.team-soc-svg {
+  
+  width: 20px;
+  height: 20px;
+fill: white;
+  
 }
 
-.team-item {
-  background: #FFFFFF;
+
+.team-item{ 
+  background-color: #FFFFFF;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
@@ -361,13 +446,80 @@ a {
 
 }
 
+.Customers{
+    padding: 120px 120px;
+}
+
+.Customers-main{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Customers-list{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 24px;
+}
+.Customers-link{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  border: 1px solid #8E8F99;
+    border-radius: 4px;
+    color: #8E8F99;
+
+}
+.Customers-svg{
+width: 168px;
+height: 88px;
+border-radius: 4px;
+}
+.Customers-svg:hover,
+.Customers-svg:focus {
+  border: 1px solid #404BBF;
+  border-radius: 4px;
+}
+
+.Customers-svg:hover,
+.Customers-svg,
+.Customers-svg:focus,
+.Customers-svg {
+  fill: #404BBF;
+  
+}
+.Customers-svg{
+  fill:#8E8F99;
+}
+.footer-media{
+  width: 264px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    
+}
 .footer {
   background: var(--footer-title-color);
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.footer-div{
+  display: flex;
+  
+}
+.footer-two{
+  margin-left: 120px;
+  align-items: center;
+  justify-content: center;
+
+}
 
 .footer-logo {
+
   text-align: center;
   margin-top: 10px;
   margin-bottom: 17px;
@@ -390,6 +542,7 @@ a {
 
 }
 
+
 .footer-desc {
   margin-top: 16px;
   width: 264px;
@@ -399,9 +552,41 @@ a {
   color: #E7E9FC;
 }
 
+.footer-team {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+ 
+}
+.footer-soc {
+  display: flex;
+justify-content: center;
+  align-items: center;
+  background-color: #4D5AE5;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;}
 
+.footer-list {
 
+}
 
+.footer-soc:hover,
+.footer-soc:focus {
+  background-color: #31D0AA;
+}
+
+.footer-soc:hover, .footer-soc,
+.footer-soc:focus, .footer-soc {
+  fill: #31D0AA;
+}
+
+.footer-svg {
+  width: 20px;
+  height: 20px;
+  fill: white;
+
+}
 
 
 .portfolio {
