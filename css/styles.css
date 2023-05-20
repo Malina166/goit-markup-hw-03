@@ -364,6 +364,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 }
 
 .team-soc-list{
+  
   display: flex;
   gap: 24px;
     width: 40px;
