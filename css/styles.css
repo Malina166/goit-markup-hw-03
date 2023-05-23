@@ -359,6 +359,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 }
 
 .team-list {
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -367,7 +368,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 }
 
 .team-soc-list{
-  
+  justify-content: center;
   display: flex;
   gap: 24px;
     width: 40px;
@@ -388,6 +389,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
   
 }
 .team-soc-link{
+  height: 100%;
 display: flex;
   justify-content: center;
   align-items: center;
@@ -406,18 +408,19 @@ width: 40px;
   fill: #404BBF;
 }
 .team-soc-svg {
-  
   width: 20px;
   height: 20px;
-fill: white;
+fill: #f4f4fd
 }
 
 
 .team-item{ 
   background-color: #FFFFFF;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);;
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 5px 0 10px 5px rgba(0, 0, 0, 0.3);
+ 
 }
 
 
