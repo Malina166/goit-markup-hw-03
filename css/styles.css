@@ -347,6 +347,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 }
 
 .team-title {
+  line-height: 1.11;
   margin-bottom: 72px;
     line-height: 1.1;
         font-weight: 700;
@@ -399,11 +400,11 @@ width: 40px;
 }
 .team-soc-link:hover,
 .team-soc-link:focus{
-  border-color: #404bbf
+  background-color: #404bbf;
 }
 .team-soc-link:hover, .team-soc-link,
 .team-soc-link:focus, .team-soc-link{
-  border-color: #404bbf
+  background-color: #404bbf;
 }
 .team-soc-svg {
   width: 20px;
@@ -489,7 +490,7 @@ margin: 16px 32px;
 }
 .customers-svg:hover,
 .customers-svg:focus {
-  border: 1px solid #404BBF;
+  border-color: #404bbf;
   border-radius: 4px;
 }
 
@@ -497,7 +498,7 @@ margin: 16px 32px;
 .customers-svg,
 .customers-svg:focus,
 .customers-svg {
-  fill: #404BBF;
+  border-color: #404bbf;
   
 }
 .customers-svg{
