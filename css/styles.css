@@ -544,15 +544,19 @@ color: #404BBF;
   padding-bottom: 100px;
 }
 .footer-div{
+  align-items: baseline;
   display: flex;
   
 }
+.footer-one{
+  
+}
 .footer-two{
-  gap: 120px;
+
+gap: 120px;
   margin-left: 120px;
   align-items: baseline;
   justify-content: center;
-
 }
 
 .footer-logo {
@@ -625,7 +629,7 @@ justify-content: center;
 .footer-svg {
   width: 20px;
   height: 20px;
-  fill: white;
+  fill: #f4f4fd
 
 }
 
