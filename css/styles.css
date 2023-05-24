@@ -348,14 +348,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 
 .team-title {
   margin-bottom: 72px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--main-title-color);
-  
+    line-height: 1.1;
 }
 
 .team-list {
@@ -460,51 +453,51 @@ fill: #f4f4fd
 
 }
 
-.Customers{
-    padding: 120px 120px;
+.customers{
+    padding: 120px 0px;
 }
 
-.Customers-main{
+.customers-main{
   display: flex;
-    align-items: center;
+    gap: 24px;
     justify-content: center;
 }
-.Customers-list{
+.customers-list{
+  width: calc((100% - 120px) / 6);
+    height: 88px;
+  }
+
+
+.customers-link{
   display: flex;
-    align-items: center;
     justify-content: center;
     width: 100%;
     height: 100%;
-    gap: 24px;
-}
-.Customers-link{
-  display: flex;
+    border-radius: 4px;
     align-items: center;
-    justify-content: center;
   border: 1px solid #8E8F99;
     border-radius: 4px;
     color: #8E8F99;
 
 }
-.Customers-svg{
-width: 168px;
-height: 88px;
-border-radius: 4px;
+.customers-svg{
+margin: 16px 32px;
+  fill: currentColor;
 }
-.Customers-svg:hover,
-.Customers-svg:focus {
+.customers-svg:hover,
+.customers-svg:focus {
   border: 1px solid #404BBF;
   border-radius: 4px;
 }
 
-.Customers-svg:hover,
-.Customers-svg,
-.Customers-svg:focus,
-.Customers-svg {
+.customers-svg:hover,
+.customers-svg,
+.customers-svg:focus,
+.customers-svg {
   fill: #404BBF;
   
 }
-.Customers-svg{
+.customers-svg{
   fill:#8E8F99;
 }
 .footer-media{
