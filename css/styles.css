@@ -368,15 +368,16 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 }
 
 .team-soc-list{
-  justify-content: center;
-  display: flex;
-  gap: 24px;
-    width: 40px;
-    height: 40px;
-    
-    
-    
+display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 8px;
 }
+        .team-soc-item{
+          
+        }
+    
+    
 .team-soc-item:first-child{
   margin-left: 16px;
 }
@@ -385,11 +386,12 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 }
 .team-soc-item {
   margin-top: 8px;
-  margin-bottom: 32px;
+  
   
 }
 .team-soc-link{
   height: 100%;
+  width: 100%;
 display: flex;
   justify-content: center;
   align-items: center;
