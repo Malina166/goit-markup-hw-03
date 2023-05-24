@@ -786,25 +786,24 @@ border-top: 0;
   display: block;
 }
 .icons {}
-
+.icons-item{
+    flex-basis: calc((100% - 48px) / 3);
+}
 .icons-hidden {}
 
 .icons-list {
   display: flex;
-  flex-wrap: wrap;
-  gap: 48px 24px;
+    flex-wrap: wrap;
+    flex-basis: calc(100% / 9 - 24px);
+    padding-bottom: 120px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .icons-list :hover,
 .icons-list:focus{
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
   0px 1px 1px rgba(46, 47, 66, 0.16),
   0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-.icons-list :hover,
-.icons-list:focus{
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-      0px 1px 1px rgba(46, 47, 66, 0.16),
-      0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .icons-subtitle {
   margin-bottom: 8px;
@@ -816,10 +815,8 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 }
 
 .icons-decs {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.50;
-  letter-spacing: 0.02em;
+  text-align: left;
+    margin-top: 8px;
   color: var(--second-title-color)
 }
 
