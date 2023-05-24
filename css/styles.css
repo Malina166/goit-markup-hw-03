@@ -732,10 +732,8 @@ background: #FFFFFF;
   display: flex;
   justify-content: center;
   gap: 24px;
-
 }
 
-.push-list:first-child {}
 
 .push-item {}
 
@@ -783,14 +781,7 @@ border-top: none;
 }
 .icons {}
 .icons-item{
-      display: flex;
-        flex-wrap: wrap;
-        flex-basis: calc(100% / 9 - 24px);
-        padding-bottom: 120px;
-        column-gap: 24px;
-        row-gap: 48px;
 }
-.icons-hidden {}
 .icons-icon{
   display: block;
 }
