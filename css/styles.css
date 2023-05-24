@@ -349,6 +349,9 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 .team-title {
   margin-bottom: 72px;
     line-height: 1.1;
+        font-weight: 700;
+          font-size: 36px;
+          color:#2e2f42
 }
 
 .team-list {
@@ -396,11 +399,11 @@ width: 40px;
 }
 .team-soc-link:hover,
 .team-soc-link:focus{
-  background-color:#404BBF;
+  border-color: #404bbf
 }
 .team-soc-link:hover, .team-soc-link,
 .team-soc-link:focus, .team-soc-link{
-  fill: #404BBF;
+  border-color: #404bbf
 }
 .team-soc-svg {
   width: 20px;
@@ -458,9 +461,9 @@ fill: #f4f4fd
 }
 
 .customers-main{
-  display: flex;
-    gap: 24px;
-    justify-content: center;
+    display: flex;
+      justify-content: center;
+      gap: 24px;
 }
 .customers-list{
   width: calc((100% - 120px) / 6);
