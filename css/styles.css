@@ -790,7 +790,9 @@ border-top: 0;
     flex-basis: calc((100% - 48px) / 3);
 }
 .icons-hidden {}
-
+.icons-icon{
+  display: block;
+}
 .icons-list {
   display: flex;
     flex-wrap: wrap;
@@ -799,8 +801,8 @@ border-top: 0;
     column-gap: 24px;
     row-gap: 48px;
 }
-.icons-list :hover,
-.icons-list:focus{
+.icons-icon :hover,
+.icons-icon:focus{
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
   0px 1px 1px rgba(46, 47, 66, 0.16),
   0px 2px 1px rgba(46, 47, 66, 0.08);
