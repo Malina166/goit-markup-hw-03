@@ -781,18 +781,19 @@ border-top: none;
 }
 .icons {}
 .icons-item{
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .icons-icon{
-  display: inline-block
+  display: block;
 }
 .icons-list {
-  display: flex;
-    flex-wrap: wrap;
-    flex-basis: calc(100% / 9 - 24px);
-    padding-bottom: 120px;
-    column-gap: 24px;
-    row-gap: 48px;
+display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc(100% / 9 - 24px);
+  padding-bottom: 120px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .icons-icon:hover,
 .icons-icon:focus {
