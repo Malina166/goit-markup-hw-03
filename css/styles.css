@@ -783,7 +783,7 @@ border-top: none;
 .icons-item{
 }
 .icons-icon{
-  display: block;
+  display: inline-block;
 }
 .icons-list {
   display: flex;
